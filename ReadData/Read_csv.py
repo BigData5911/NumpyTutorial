@@ -7,5 +7,4 @@ df = pd.read_csv("scores.csv",
                  skiprows=[1,5],
                  usecols=['Name', 'Score'],
                  nrows=2)
-
 print(df.head())
